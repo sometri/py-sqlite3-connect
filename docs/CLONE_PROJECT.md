@@ -1,13 +1,9 @@
 # Guide: Clone This Project to Your Local PC
 
-This guide shows how to copy (clone) this project from GitHub onto your own computer.
-It works for **any GitHub account** (`<your-github-username>`), **any project name**
-(`<your-project-name>`), and **any repository** — whether it is **public** or **private**.
+This guide shows how to copy (clone) **this** project from GitHub onto your own computer.
 
-Replace the placeholders as you go:
-
-- `<your-github-username>` — the GitHub username that owns the repo, e.g. `octocat`
-- `<your-project-name>` — the repo name, e.g. `py-sqlite3-connect`
+**Repository:** https://github.com/sometri/py-sqlite3-connect
+**Clone URL (HTTPS):** `https://github.com/sometri/py-sqlite3-connect.git`
 
 ---
 
@@ -28,7 +24,7 @@ Replace the placeholders as you go:
 
     Or download it from https://git-scm.com/downloads.
 
-- For a **private** repo, you must be logged in / authorized (see Step 3).
+- If the repo is **private**, you must be logged in / authorized (see Step 3).
 
 ---
 
@@ -53,20 +49,20 @@ that private repos require authentication.
 Anyone can clone it with no login:
 
 ```bash
-git clone https://github.com/<your-github-username>/<your-project-name>.git
+git clone https://github.com/sometri/py-sqlite3-connect.git
 ```
 
 ### Option B — Private repository
 
 Only you (or invited collaborators) can clone it. Git will ask for credentials:
 
-- **Username:** your GitHub username (`<your-github-username>`)
+- **Username:** your GitHub username (e.g. `sometri`)
 - **Password:** a **Personal Access Token** (NOT your account password)
   - Create one at: GitHub → Settings → Developer settings → Personal access tokens → Tokens (classic)
   - Give it the `repo` scope.
 
 ```bash
-git clone https://github.com/<your-github-username>/<your-project-name>.git
+git clone https://github.com/sometri/py-sqlite3-connect.git
 ```
 
 > Tip: save the token so you don't retype it — use Git Credential Manager (bundled with
@@ -74,15 +70,15 @@ git clone https://github.com/<your-github-username>/<your-project-name>.git
 
 ### Get the exact URL
 
-On GitHub, open the repo, click the green **Code** button, and copy the **HTTPS** URL.
-That gives you the exact `https://github.com/<owner>/<repo>.git` link to use above.
+On GitHub, open https://github.com/sometri/py-sqlite3-connect, click the green **Code**
+button, and copy the **HTTPS** URL.
 
 ---
 
 ## 4. Go into the cloned folder
 
 ```bash
-cd <your-project-name>
+cd py-sqlite3-connect
 ```
 
 Everything from the repo is now on your PC.
@@ -105,7 +101,7 @@ If you have the GitHub CLI installed and logged in (`gh auth login`), you can cl
 with a shorter command, and it handles private-repo auth automatically:
 
 ```bash
-gh repo clone <your-github-username>/<your-project-name>
+gh repo clone sometri/py-sqlite3-connect
 ```
 
 ---
