@@ -5,7 +5,7 @@ This guide works for **any GitHub account** (`<your-github-username>`), **any pr
 
 Replace the placeholders as you go:
 
-- `<your-github-username>` — your GitHub username, e.g. `octocat`
+- `<your-github-username>` — your GitHub username, e.g. `sometri`
 - `<your-project-name>` — the repo name, e.g. `py-sqlite3-connect`
 - `<your-email@example.com>` — the email tied to your GitHub account
 
